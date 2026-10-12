@@ -1,5 +1,11 @@
+html {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
 body {
     margin: 0;
+    font-family: 'Lato', sans-serif;
 }
 
 .centered {
@@ -21,4 +27,60 @@ body {
     background-size: cover;
     height: 300px; 
     width: 100%; 
+}
+
+.ai-picture {
+    max-width: 400px;
+    height: auto;
+}
+
+nav {
+    background-color: #9c6849;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.border-box {
+    border: 8px solid #9c6849;
+    padding: 20px;
+     margin: 20px auto;
+    background-color: #f0f0f0;
+}
+
+.border-box01 {
+    border: 8px solid #b97853;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #f0f0f0;
+    max-width: 900px;
+}
+
+.border-box02 {
+    border: 6px solid #4d63af;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #f0f0f0;
+    max-width: 600px;
+}
+
+.about-scroll-wrapper {
+    display: block;
+    padding-top: 100px; 
+    margin-top: -100px;   
 }
